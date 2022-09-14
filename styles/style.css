@@ -39,7 +39,7 @@
   line-height: 96px;
   z-index: 2;
   width: 730px;
- }
+}
 
 .header__subtitle {
   font-size: 18px;
@@ -81,14 +81,14 @@
   margin-top: 100px;
   display: flex;
   justify-content: center;
- }
+}
 
 .two-columns {
   display: flex;
   justify-content: space-between;
   min-height: 332px;
   width: 80%;
- }
+}
 
 .two-columns__brief {
   width: 175px;
@@ -97,7 +97,7 @@
   font-weight: normal;
   color: #2f80ed;
   margin: 0;
- }
+}
 
 .two-columns__main-text {
   line-height: 34px;
@@ -105,21 +105,21 @@
   font-weight: normal;
   width: 80%;
   min-width: 784px;
- }
+}
 
  .two-columns__paragraf {
   margin: 0 0 30px 0;
- }
+}
 
  .two-columns__paragraf:last-child {
   margin: 0;
- }
+}
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
- }
+}
 
 .digits {
   margin: 100px 0;
@@ -149,7 +149,7 @@
   flex-wrap: wrap;
   width: 1100px;
   margin: 0 auto;
-  }
+}
 
 .table__cell {
   width: 250px;
@@ -160,14 +160,14 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-  }
+}
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
-  }
+}
 
 .feynman {
   height: 890px;
@@ -209,15 +209,54 @@
   position: absolute;
   top: 50%;
   right: 48px;
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+}
+
+.section-title__theme_dark {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 90px;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
+
+.section-subtitle__theme_dark {
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 60%;
+  margin: 20px auto 0;
+  color: white;
+  z-index: 2;
   }
 
-
-
-
-
-
-
-
+.table__theme_dark {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+ }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -225,4 +264,18 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 2;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
 }
